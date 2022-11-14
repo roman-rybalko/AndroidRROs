@@ -13,10 +13,7 @@
 	<bool name="config_enableMultiUserUI">true</bool>
 
 	<!-- Maximum number of users we allow to be running at a time -->
-	<!--
-		BUG: https://issuetracker.google.com/issues/258954156
-		Setting to "10" as a workaround.
-	-->
-	<integer name="config_multiuserMaxRunningUsers">10</integer>
+	<!-- Admin + 2 (to move data between users) -->
+	<integer name="config_multiuserMaxRunningUsers">3</integer>
 
 </resources>
