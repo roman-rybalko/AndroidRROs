@@ -1,6 +1,7 @@
 # Android RROs (Runtime Resource Overlay)
 Build:
 ```
+./build.sh Multiuser
 ./build.sh <overlay_dir>
 ```
 then put it to `/product/overlay`, `/vendor/overlay` or `/system/overlay`, etc
