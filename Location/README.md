@@ -1,3 +1,6 @@
+# Broken
+Tested on Android 11 - does not work as expected.
+
 # Location providers
 * org.microg.nlp
 * com.lexa.fakegps
